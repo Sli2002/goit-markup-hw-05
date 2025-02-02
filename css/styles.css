@@ -688,13 +688,14 @@ img {
 .clouse:focus {
     background-color: #404bbf;
     border: none;
+
 }
 
-.close:hover+.clouse-icon {
+.close:hover .clouse-icon {
     fill: #ffffff;
 }
 
-.close:focus+.clouse-icon {
+.close:focus .clouse-icon {
     fill: #ffffff;
 }
 
@@ -719,7 +720,7 @@ img {
 
 .form-field {
     margin-bottom: 8px;
-    /* height: 58px;*/
+
 }
 
 .input-name-form {
@@ -825,9 +826,10 @@ img {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #757575;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     color: #8e8f99;
+    display: block;
 }
 
 .check-span {

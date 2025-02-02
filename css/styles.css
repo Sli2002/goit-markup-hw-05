@@ -691,11 +691,11 @@ img {
 
 }
 
-.close:hover .clouse-icon {
+.clouse:hover .clouse-icon {
     fill: #ffffff;
 }
 
-.close:focus .clouse-icon {
+.clouse:focus .clouse-icon {
     fill: #ffffff;
 }
 
@@ -808,6 +808,12 @@ img {
     padding: 8px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
+}
+
+
+.modal-area:hover,
+.modal-area:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-area::placeholder {
